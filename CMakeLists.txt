@@ -11,7 +11,6 @@ set(GLFW_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
 set(GLFW_INSTALL OFF CACHE BOOL "" FORCE)
 add_subdirectory(thirdparty/glfw)			
 add_subdirectory(thirdparty/glad)				
-#add_subdirectory(thirdparty/imgui-docking)		#ui
 
 
 # Define MY_SOURCES to be a list of all the source files for my game 
